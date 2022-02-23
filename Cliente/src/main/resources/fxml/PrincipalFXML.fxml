@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="quevedo.ClienteSecretos.gui.controllers.FXMLPrincipalController"
+            fx:id="root"
+            prefHeight="400.0" prefWidth="600.0">
+   <top>
+       <MenuBar fx:id="menu">
+           <menus>
+               <Menu  mnemonicParsing="false" text="volver">
+                   <items>
+                       <MenuItem mnemonicParsing="false" onAction="#chargeLogin" text="Go back to login" />
+                   </items>
+               </Menu>
+           </menus>
+       </MenuBar>
+   </top>
+</BorderPane>

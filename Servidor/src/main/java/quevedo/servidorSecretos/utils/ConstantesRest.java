@@ -1,0 +1,58 @@
+package quevedo.servidorSecretos.utils;
+
+public class ConstantesRest {
+
+    public static final String PATH_API = "api";
+    public static final String PATH_USUARIOS = "usuarios";
+    public static final String ACTIVACION_CODIGO = "codigo";
+    public static final String ACTIVACION_NAME = "name";
+    public static final String BIENVENIDA_JSP = "bienvenida.jsp";
+    public static final String ERROR_ACTIVACION_HTML = "errorActivacion.html";
+    public static final String SERVLET_VALUE_ACTIVACION = "/activacion";
+    public static final String SERVLET_NAME_ACTIVACION = "ServletActivacion";
+    public static final String ASUNTO_REGISTRO = "Confirmacion de correo";
+    public static final String DATOS_REPETIDOS = "Algunos de los datos introducidos existen en la base de datos";
+    public static final String TIEMPO_EXCEDIDO_JSP = "tiempoExcedido.jsp";
+    public static final String ZONA_HORARIA = "Europe/Madrid";
+    public static final String EMAIL_ENVIADO_HTML = "emailEnviado.html";
+    public static final String PARAM_ID = "id";
+    public static final String PATH_ID = "{id}";
+    public static final String SERVLET_VALUE_MAIL = "/mail";
+    public static final String SERVLET_NAME_MAIL = "ServletMail";
+    public static final String SERVLET_VALUE_LOGOUT = "/logout";
+    public static final String SERVLET_NAME_LOGOUT = "ServletLogout";
+    public static final String PATH_CAMBIO_PASS = "cambiopass";
+    public static final String ASUNTO_CAMBIO_DE_CONTRASEÑA = "Cambio de Contraseña";
+    public static final String CORREO_NO_ENVIADO = "Ha ocurrido un problema al enviar el correo, por favor vuelve a intentarlo";
+    public static final String CAMBIO_PASS_JSP = "cambioPass.jsp";
+    public static final String SERVLET_NAME_CAMBIO = "Servletcambio";
+    public static final String SERVLET_VALUE_CAMBIO = "/cambio";
+    public static final String SERVLET_NAME_PRE_CAMBIO = "ServletPreCambio";
+    public static final String SERRVLET_VALUE_PRE_CAMBIO = "/preCambio";
+    public static final String PARAMETER_PASS = "pass";
+    public static final String CONTRASEÑA_CAMBIADA_HTML = "contraseñaCambiada.html";
+    public static final String ERROR_CONEXION_HTML = "errorConexion.html";
+    public static final String ERROR_CONTRASEÑA_HTML = "errorContraseña.html";
+    public static final String TIEMPO_EXCEDIDO_CONTRASEÑA_HTML = "tiempoExcedidoContraseña.html";
+    public static final String PARAM_USER = "user";
+    public static final String PARAMETER_USERNAME = "username";
+    public static final String DOS = "2";
+    public static final String PATH_EQUIPOS = "equipos";
+    public static final String PATH_JORNADAS = "jornadas";
+    public static final String PATH_PARTIDOS = "partidos";
+    public static final String PATH_PARAMETER_EQUIPO = "equipo";
+    public static final String PATH_PARAMETER_JORNADA = "jornada";
+    public static final String PATH_FILTRAR_EQUIPO = "filtroequipo";
+    public static final String PATH_FILTRAR_JORNADA = "filtrojornada";
+    public static final String PATH_INSERT_ADMIN = "insertadmin";
+    public static final String PATH_CAMBIO_CODIGO = "reenviar";
+    public static final String EL_CORREO_HA_SIDO_ENVIADO = "El correo ha sido enviado";
+    public static final String UTF_8 = "UTF-8";
+    public static final String PATH_NAME = "{name}";
+    public static final String PATH_PARAMETER_NAME = "name";
+    public static final String DESCONECTADO = "Desconectado";
+    public static final String USUARIO_NO_ENCONTRADO = "El usuario introducido no ha sido encontrado o ya esta confirmada su cuenta";
+    public static final String JWT = "JWT";
+    public static final String GROUP = "group";
+    public static final String DO_LOGIN = "doLogin";
+}

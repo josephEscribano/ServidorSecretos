@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="quevedo.ClienteSecretos.gui.controllers.FXMLEncriptarController">
+   <children>
+      <Button layoutX="20.0" layoutY="217.0" mnemonicParsing="false" onAction="#guardarSecreto" text="Guardar Secreto" />
+      <Button layoutX="399.0" layoutY="328.0" mnemonicParsing="false" onAction="#mostrarSecreto" text="Ver Secretos" />
+      <ListView fx:id="lvSecretos" layoutX="322.0" layoutY="70.0" prefHeight="232.0" prefWidth="219.0" />
+      <TextField fx:id="tfSecreto" layoutX="51.0" layoutY="66.0" />
+      <Label layoutX="51.0" layoutY="49.0" text="Secreto" />
+      <ComboBox fx:id="cbCompartir" layoutX="51.0" layoutY="131.0" prefWidth="150.0" promptText="Compartir" />
+      <Button layoutX="189.0" layoutY="217.0" mnemonicParsing="false" text="Compartir" onAction="#compartirSecreto"/>
+   </children>
+</AnchorPane>

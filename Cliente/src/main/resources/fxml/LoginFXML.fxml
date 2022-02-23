@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="quevedo.ClienteSecretos.gui.controllers.FXMLLoginController">
+   <children>
+      <Button layoutX="188.0" layoutY="213.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" text="Login" onAction="#doLogin" />
+      <TextField fx:id="tfUser" layoutX="226.0" layoutY="91.0" promptText="user" />
+      <TextField fx:id="tfPass" layoutX="226.0" layoutY="159.0" promptText="pass" />
+      <Button layoutX="339.0" layoutY="213.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Registro" onAction="#registro"/>
+   </children>
+</AnchorPane>
